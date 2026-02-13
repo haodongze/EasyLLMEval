@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MODEL_PATH="/mnt/data/group/models/Qwen3-4B-Instruct-2507"
+MODEL_PATH="/mnt/data/group/models/DeepSeek-R1-Distill-Qwen-1.5B"
 # 定义所有要跑的 data_name
 DATA_NAMES=("aime2024" "aime2025-1" "aime2025-2")
 
