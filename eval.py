@@ -114,7 +114,7 @@ def infer(args):
     examples = examples[args.start_idx:args.end_idx]
     
     dt_string = datetime.now().strftime("%m-%d_%H-%M")
-    model_name = "/".join(args.model_name_or_path.split("/")[-3:])
+    model_name = "/".join(args.model_name_or_path.split("/")[-4:])
     out_file_prefix = f'{args.split}_{args.prompt_type}_t{args.temperature}'
     out_file = f'{args.output_dir}/{model_name}/{args.data_name}/{out_file_prefix}_k{args.n_sampling}_s{args.start_idx}_e{args.end_idx}.jsonl'
     

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MODEL_PATH="/mnt/data/group/models/DeepSeek-R1-Distill-Qwen-1.5B"
+MODEL_PATH="/mnt/data/group/haodongze/internvl-verl/verl_internvl_work_dirs/internvl3_5_4b_custom/deepseek-r1-1_5b_multi_nodes_grpo_on_policy_distill_plus/global_step_78/actor/huggingface"
 # 定义所有要跑的 data_name
 DATA_NAMES=("aime2024" "aime2025-1" "aime2025-2")
 
